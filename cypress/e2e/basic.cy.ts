@@ -8,7 +8,7 @@ describe('empty spec', () => {
     .contains('HELLO', { matchCase: false })
   })
 
-  it('displays Click button', (https://featurereviewhub.com/) => {
+  it('displays Click button', () => {
     cy.get('button')
     .contains('Clicks');
   })
