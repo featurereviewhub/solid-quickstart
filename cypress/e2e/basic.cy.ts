@@ -5,7 +5,7 @@ describe('empty spec', () => {
 
   it('display header text', () => {
     cy.get('h1')
-    .contains('', { matchCase: false })
+    .contains('HEEEEEE', { matchCase: false })
   })
 
   it('displays Click button', () => {
